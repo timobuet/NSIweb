@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WEB SITE NSI</title>
+</head>
+
+<body>
+   <h1>NSIweb</h1>
+   <h2>Timo Buet Guillaume Prigent</h2>
+   <h1>FORM</h1>
+       <p>
+       <h2>
+           <form action="recolte_donnees.php" method="post">
+           <h2>Fruits</h2>
+       <input type="checkbox" name="fruits[]" id="">pomme <br>
+       <input type="checkbox" name="fruits[]" id="">banane <br>
+       <input type="checkbox" name="fruits[]" id="">poire<br>
+       <input type="checkbox" name="fruits[]" id="">abricot <br>
+       </p>
+       </h2>
+       <p>
+           <input type="submit" value="envoyer">
+       </p>
+   </form>
+</body>
+
+</html>
